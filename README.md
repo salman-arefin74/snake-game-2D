@@ -1,2 +1,36 @@
-# snake-game-2D
-This is a 2D version of the snake game most of us are used to playing in our old phones, where the snake eats the food and grows and when the snake touches it's own body or the wall it dies. Built with score saving feature as well. You can check the highscores and compete.
+## Snake Game 2D
+
+Colourful, modern 2D Snake with smooth movement, animated food, scoring, and top-5 high scores.
+
+### Controls
+
+- **Move**: Arrow keys or WASD  
+- **Pause**: P  
+- **Restart**: R  
+- **High scores**: H  
+- **Quit**: Esc
+
+### Install (macOS)
+
+Requires **Python 3.10+**.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Run
+
+```bash
+source .venv/bin/activate
+python main.py
+```
+
+### Notes
+
+- **Score**: +10 points per food.
+- **Game over**: if the snake hits **itself** (or a wall).
+- **High scores**: saved locally to `highscores.json`, only **top 5** are displayed in-game.
+
+
