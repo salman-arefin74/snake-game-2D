@@ -1,6 +1,7 @@
 ## Snake Game 2D
 
 Colourful, modern 2D Snake with smooth movement, animated food, scoring, and top-5 high scores.
+The entire game is vibe coded using Cursor (GPT 5.2)
 
 ### Controls
 
